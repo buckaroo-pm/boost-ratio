@@ -1,0 +1,19 @@
+cxx_binary(
+  name = 'display-ex',
+  srcs = glob([
+    'display_ex.cpp',
+  ]),
+  deps = [
+    '//:ratio',
+  ],
+)
+
+cxx_binary(
+  name = 'si-physics',
+  srcs = glob([
+    'si_physics.cpp',
+  ]),
+  deps = [
+    '//:ratio',
+  ],
+)
